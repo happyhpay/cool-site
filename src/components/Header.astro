@@ -2,7 +2,7 @@
 import HeaderLink from './HeaderLink.astro'
 import { HOMEPAGE_URL } from '../config'
 import { IoLogoGithub } from 'react-icons/io5/index.js'
-import FootprintIcon from './icons/footprint'
+import HIcon from './icons/h'
 import ThemeToggle from './ThemeToggleButton'
 import DropdownMenu from './DropdownMenu'
 
@@ -18,18 +18,13 @@ allPosts.map(post => {
   <div class="mx-auto max-w-3xl">
     <nav class="flex items-center gap-3 text-base">
       <a href="/" class="group">
-        <h2 class="font-semibold tracking-tighter p-2 font-mplus text-lg">
-          <FootprintIcon />
-          Takuya Matsuyama
+        <h2
+          class="flex items-center font-semibold tracking-tighter p-2 font-mplus text-lg"
+        >
+          <HIcon />
+          <span class="ml-2"> Happy HPay</span>
         </h2>
       </a>
-      <div class="items-center gap-6 hidden md:flex">
-        <HeaderLink href={HOMEPAGE_URL}>About</HeaderLink>
-        <HeaderLink
-          href="https://github.com/craftzdog/craftzdog-uses"
-          target="_blank"><IoLogoGithub />Source</HeaderLink
-        >
-      </div>
       <div class="flex-1"></div>
       <ThemeToggle client:visible />
       <DropdownMenu client:visible tags={Array.from(allTags)} />

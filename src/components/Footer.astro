@@ -1,10 +1,16 @@
 ---
-import { HOMEPAGE_URL } from '../config'
+import { HOMEPAGE_URL, THANKS_URL } from '../config'
 
 const today = new Date()
 ---
 
 <footer class="text-zinc-500 p-4 text-center">
-  &copy; {today.getFullYear()}
-  <a href={HOMEPAGE_URL}>Takuya Matsuyama</a>. All rights reserved.
+  <div>
+    Special thanks to <a href={HOMEPAGE_URL}>Takuya Matsuyama</a>, this site
+    adopts his template.
+  </div>
+  <div>
+    &copy; {today.getFullYear()}
+    <a href={HOMEPAGE_URL}>HappyHPay</a>. All rights reserved.
+  </div>
 </footer>

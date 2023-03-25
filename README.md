@@ -1,17 +1,3 @@
-# Takuya's curated list of the tech
-
-A curated list of the tech I use, built with Astro and Tailwind CSS
-
-https://uses.craftz.dog/
-
-## Tutorial
-
-Watch how I built this website on YouTube:
-
-[![tutorial thumbnail](./docs/tutorial-thumb.jpg)](https://youtu.be/3_JE76PKBWE)
-
-<https://youtu.be/3_JE76PKBWE>
-
 ## Stack
 
 - [Astro](https://astro.build/) - Static Website Framework
@@ -64,13 +50,3 @@ npm run live-import
 
 MIT License.
 
-You can create your own homepage for free without notifying me by forking this project under the following conditions:
-
-- Delete my blog content and assets
-- Add a link to [my homepage](https://www.craftz.dog/)
-
----
-
-Looking for a Markdown note-taking app? Check out my app called Inkdrop:
-
-[![Inkdrop](https://github.com/craftzdog/dotfiles-public/raw/master/images/inkdrop.png)](https://www.inkdrop.app/)
