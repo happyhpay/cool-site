@@ -1,22 +1,13 @@
 ---
-import { Image } from '@astrojs/image/components'
 // const isProd = import.meta.env.PROD
 ---
 
 <section class="relative mb-6 h-80 flex justify-center items-center">
   <div class="absolute w-full h-full overflow-hidden">
-    <!-- <img
+    <img
       src="/hcoin_to_the_moon.avif"
-      class="opacity-50"
+      class="opacity-50 w-full h-80 object-cover object-top"
       alt="hcoin to the moon"
-    /> -->
-    <Image
-      class="opacity-10"
-      src={'/hcoin_to_the_moon.avif'}
-      width={720 * 2}
-      height={720 * 2}
-      aspectRatio={2.0}
-      alt="Hcoin to the moon"
     />
   </div>
   <div class="z-10 text-center px-8 drop-shadow-lg shadow-black">
