@@ -11,7 +11,7 @@ tags:
 heroImage: /posts/hpay-test-app/hero.png
 ---
 
-### 1.点击 [Hpay 测试版下载链接](https://app.bitrise.io/app/47507a8a468db1a1/build/4420fccd-43e0-41df-af50-7a373596c1ad/artifact/4271e0d747ad1253/p/da08ac4f1d66217674f8f243d1fc10ea)
+### 1.如果您使用安卓系统，可点击 [Hpay 测试版（安卓）下载链接](https://drive.google.com/file/d/1b6PK517RANxvHX9gqrYqkDC92mpRA8CK/view?usp=share_link) 直接下载； IOS用户请参考以下教程： 点击 [Hpay 测试版(ios)下载链接](https://app.bitrise.io/app/47507a8a468db1a1/build/4420fccd-43e0-41df-af50-7a373596c1ad/artifact/4271e0d747ad1253/p/da08ac4f1d66217674f8f243d1fc10ea)
 &nbsp;&nbsp;
 ![hpay-test-app/1.png](/posts/hpay-test-app/1.png)
 ### 2.会提示您下载一个配置描述文件，请点击下载
